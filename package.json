@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"express": "^5.1.0",
+		"express-handlebars": "^8.0.1",
+		"install": "^0.13.0",
+		"method-override": "^3.0.0",
+		"mongoose": "^8.14.0",
+		"mongoose-delete": "^1.0.2",
+		"mongoose-slug-generator": "^1.0.4",
+		"nodemon": "^3.1.10"
+	},
+	"scripts": {
+		"start": "nodemon src/server.js",
+		"watch": "node-sass src/resource/scss/app.scss src/public/css/app.css "
+	},
+	"devDependencies": {
+		"node-sass": "^9.0.0"
+	}
+}
